@@ -24,6 +24,25 @@ Add to your config (`~/Library/Application Support/Claude/claude_desktop_config.
 }
 ```
 
+### OpenCode
+
+Add to your `opencode.json`:
+
+```json
+{
+  "mcp": {
+    "tolgee": {
+      "type": "local",
+      "command": ["uvx", "tolgee-mcp"],
+      "enabled": true,
+      "environment": {
+        "TOLGEE_API_KEY": "your-api-key"
+      }
+    }
+  }
+}
+```
+
 ### Other MCP Clients
 
 Any MCP client that supports STDIO servers can use the same pattern:
