@@ -1,0 +1,20 @@
+[project]
+name = "tolgee-mcp"
+version = "0.1.0"
+description = "MCP server for the Tolgee localization platform API"
+readme = "README.md"
+authors = [
+    { name = "Yannis Tarfa", email = "yannis.tarfa@ateko.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]",
+    "httpx",
+]
+
+[project.scripts]
+tolgee-mcp = "tolgee_mcp.server:main"
+
+[build-system]
+requires = ["uv_build>=0.10.7,<0.11.0"]
+build-backend = "uv_build"
