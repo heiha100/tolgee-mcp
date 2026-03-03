@@ -4,7 +4,7 @@ An MCP server that wraps the [Tolgee](https://tolgee.io) localization platform A
 
 ## Quick Start
 
-The only prerequisite is [uv](https://docs.astral.sh/uv/). No cloning or manual installation required.
+The only prerequisite is [uv](https://docs.astral.sh/uv/).
 
 ### Claude Desktop
 
